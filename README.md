@@ -1,14 +1,1 @@
-**Project Overview**
-This project implements a simple, command-line interface (CLI) To-Do List Manager developed in Python. It allows users to efficiently manage their daily tasks with the capability to add new items, view the current list, mark tasks as complete, and delete entries. Crucially, the application ensures data persistence by saving the task list to a file, allowing the user to resume their work across sessions
- Real-World Problem / NeedMany simple planning tools lack the ability to save and reload task lists seamlessly, forcing users to rely on less structured methods. The need is for a lightweight, readily accessible tool that provides basic task management and reliable data persistence.2. Clear ObjectivesFunctionality: Implement the four core operations: Add, View, Mark Complete, and Delete tasks.Data Persistence: Successfully load and save the task list to a local file (todo_data.json) upon startup and exit/modification.Modular Design: Structure the code using separate functions for each major operation (e.g., load_tasks, add_task, display_tasks) for clear maintainability.User Interface: Provide a clear, indexed command-line menu for easy navigation.🛠️ Technology and ImplementationThis project utilizes the following core technologies and concepts:ComponentDescriptionConcept AppliedLanguagePython 3Control Flow, Function Definition, Standard I/OData StructureList of DictionariesUsed to store task objects, associating a description (string) with a completion status (Boolean).Persistencejson LibraryUsed for structured serialization and deserialization (reading/writing) of the Python list to the file system.AlgorithmIndexed AccessFunctions like mark_complete and delete_task rely on accepting a user-provided index and converting it for 0-based list access.🚀 Getting StartedFollow these instructions to clone and run the project locally.PrerequisitesPython 3.x installed on your system.Installation and ExecutionClone the Repository:Bashgit clone [YOUR GITHUB REPO URL HERE]
-cd todo-list-manager
-Run the Application:Since no external libraries are needed, you can run the script directly:Bashpython todo_list.py
-Usage:The application will load the tasks (or start empty) and display the main menu. Select an option (1-5) to interact with the list.📂 Repository StructureThe repository adheres to the required submission guidelines:todo-list-manager/
-├── README.md             <- This documentation file
-├── todo_list.py          <- The main Python source code
-├── todo_data.json        <- The persistent data file (created on first run)
-├── screenshots/          <- Directory for visual documentation (MANDATORY)
-│   └── main_menu.png
-│   └── tasks_added.png
-└── recordings/           <- Directory for screen recordings (if available)
-    └── demo.mp4
+
